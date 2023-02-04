@@ -7,12 +7,12 @@ file will be written to a binary file whose name is gained by adding the
 .huff extension to the input file name.
 
 If the program does not receive exactly one argument, the following
-string is be printed out to standard output: `<b>`{=html}Argument
-Error`</b>`{=html}
+string is be printed out to standard output: 
+**_Argument Error_**
 
 In case of problems encountered when opening (e.g. the file does not
 exist, insufficient access rights) or reading the file, the program
-should output the following string to standard output: `<b>`{=html}File
-Error`</b>`{=html}
+should output the following string to standard output: 
+**_File Error_**
 
 The input file can have any format (i.e. it can be a binary file).
