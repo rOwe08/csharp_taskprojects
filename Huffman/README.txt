@@ -3,9 +3,9 @@ The program receives the name of the file in the form of a single command-line a
 The compressed file will be written to a binary file whose name is gained by adding the .huff extension to the input file name. 
 
 If the program does not receive exactly one argument, the following string is be printed out to standard output: 
-<b>Argument Error</b> 
+**_Argument Error_**
 
 In case of problems encountered when opening (e.g. the file does not exist, insufficient access rights) or reading the file, the program should output the following string to standard output: 
-<b>File Error</b> 
+File Error
 
 The input file can have any format (i.e. it can be a binary file). 
