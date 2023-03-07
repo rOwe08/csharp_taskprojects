@@ -1,0 +1,41 @@
+--- PART 1 (panels support) ---
+
+StackPanel {
+Image { Url = "flower1.jpg", ZoomFactor = 1 } 
+Image { Url = "flower1.jpg", ZoomFactor = 0,25 } 
+Label { Text = "Daisy (lat. Bellis perennis)" } 
+}
+
+Canvas {
+Image { Url = "flower2.jpg", ZoomFactor = 1 } at 10, 10
+Image { Url = "flower2.jpg", ZoomFactor = 1,5 } at 10, 205
+Label { Text = "Dandelion (lat. Taraxacum officinale)" } at 50, 200
+StackPanel {
+Image { Url = "flower1.jpg", ZoomFactor = 1 } 
+Image { Url = "flower1.jpg", ZoomFactor = 0,25 } 
+Label { Text = "Daisy (lat. Bellis perennis)" } 
+} at 500, 0
+}
+
+--- PART 2 (fluent syntax) ---
+
+StackPanel {
+Image { Url = "flower1.jpg", ZoomFactor = 1 } 
+Image { Url = "flower1.jpg", ZoomFactor = 0,25 } 
+Label { Text = "Daisy (lat. Bellis perennis)" } 
+Image { Url = "flower1.jpg", ZoomFactor = 0,75 } 
+}
+
+Canvas {
+Image { Url = "flower2.jpg", ZoomFactor = 1 } at 10, 10
+Image { Url = "flower2.jpg", ZoomFactor = 1,5 } at 10, 205
+Label { Text = "Dandelion (lat. Taraxacum officinale)" } at 50, 200
+Image { Url = "flower2.jpg", ZoomFactor = 0,75 } at 0, 0
+StackPanel {
+Image { Url = "flower1.jpg", ZoomFactor = 1 } 
+Image { Url = "flower1.jpg", ZoomFactor = 0,25 } 
+Label { Text = "Daisy (lat. Bellis perennis)" } 
+Image { Url = "flower1.jpg", ZoomFactor = 0,75 } 
+} at 500, 0
+}
+

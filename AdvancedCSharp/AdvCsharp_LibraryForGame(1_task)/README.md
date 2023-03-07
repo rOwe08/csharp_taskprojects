@@ -1,0 +1,1 @@
+The goal was to write correct library for GamePhysics2023 folder in GamePhysicsLibrary and using this library modify Entities.cs in JumpingPlatformGame folder for moving squares and jumping "girls" squeres. The main idea was to use extension methods.
